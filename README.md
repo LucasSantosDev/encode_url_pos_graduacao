@@ -1,15 +1,15 @@
 ##### RUN PROJECT
 ---
-###### 🧩 Install packages
+###### 🧩  Install packages
 
 ```
 $ yarn install
 ```
 
-###### 🏃🏽‍♂️ Start project
+###### 🏃🏽‍♂️  Start project
 
 ```
 $ yarn start
 ```
 
-###### 💻 See in terminal console the result
+###### 💻  See in terminal console the result
