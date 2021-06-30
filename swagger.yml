@@ -1,0 +1,32 @@
+openapi: 3.0.1
+info:
+  title: API de Encurtador de URL
+  description: Encurta URLs
+  version: 1.0.0
+tags:
+  - name: index
+    description: 'Lista todas as URLs'
+paths:
+  /index/{filterDate}?:
+    get:
+      tags:
+        - index
+      summary: Lista de URLs
+      operationId: listAllURLs
+      parameters:
+        - name: filterDate
+          in: path
+          description: Data para filtrar
+          required: false
+          schema:
+            type: string
+      responses:
+        200:
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: number
